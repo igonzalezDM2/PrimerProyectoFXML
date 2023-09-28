@@ -57,7 +57,7 @@
             </Label>
             <TextField fx:id="txtOperador1" prefHeight="25.0" prefWidth="235.0" GridPane.columnIndex="1" />
             <TextField fx:id="txtOperador2" GridPane.columnIndex="1" GridPane.rowIndex="1" />
-            <Button fx:id="boton" mnemonicParsing="false" onAction="#calcular" prefHeight="55.0" prefWidth="113.0" style="-fx-background-color: #3fb5ff;" text="Calcular" textFill="WHITE" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.rowIndex="2" />
+            <Button fx:id="boton" mnemonicParsing="false" onAction="#calcular" prefHeight="55.0" prefWidth="113.0" text="Calcular" textFill="WHITE" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.rowIndex="2" />
          </children>
          <GridPane.margin>
             <Insets />
@@ -65,7 +65,7 @@
       </GridPane>
       <FlowPane alignment="TOP_CENTER" prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="2">
          <children>
-            <RadioButton contentDisplay="CENTER" mnemonicParsing="false" prefHeight="68.0" prefWidth="69.0" text="Sumar">
+            <RadioButton selected="true" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="68.0" prefWidth="69.0" text="Sumar">
                <toggleGroup>
                   <ToggleGroup fx:id="operaciones" />
                </toggleGroup></RadioButton>
