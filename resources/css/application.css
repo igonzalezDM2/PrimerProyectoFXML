@@ -2,3 +2,18 @@
 #boton {
 	-fx-background-color: #3fb5ff;
 }
+.text-field:focused {
+	-fx-background-color: #ffffff;
+}
+
+.radio-button:selected {
+	-fx-color: #3fb5ff;
+}
+
+#contenedor {
+	-fx-background-color: blue;
+	-fx-background-image: url(../images/konoha.jpg);
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center;
+	-fx-background-size: cover;
+}
